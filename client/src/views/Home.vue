@@ -1,18 +1,35 @@
 <template>
     <div class="home">
-        <img alt="Vue logo" src="../assets/logo.png">
-        <HelloWorld msg="Welcome to Your Vue.js App"/>
+        <Navbar :isEditable="false" />
+        <Carousel />
+        <Services />
+        <ServiceCover />
+        <SplitSection />
+        <Footer />
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Navbar from "@/components/Navbar.vue";
+import Carousel from "@/components/Carousel.vue";
+import Services from "@/components/Services.vue";
+import ServiceCover from "@/components/ServiceCover.vue";
+import SplitSection from "@/components/SplitSection.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
-    name: 'Home',
+    name: "Home",
     components: {
-        HelloWorld
-    }
-}
+        Navbar,
+        Carousel,
+        Services,
+        ServiceCover,
+        SplitSection,
+        Footer,
+    },
+
+    created() {
+        console.log(this.$route);
+    },
+};
 </script>
