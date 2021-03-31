@@ -5,6 +5,7 @@
         <Services />
         <ServiceCover />
         <SplitSection />
+        <Paralax />
         <Footer />
     </div>
 </template>
@@ -15,6 +16,7 @@ import Carousel from "@/components/Carousel.vue";
 import Services from "@/components/Services.vue";
 import ServiceCover from "@/components/ServiceCover.vue";
 import SplitSection from "@/components/SplitSection.vue";
+import Paralax from "@/components/Paralax.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -25,6 +27,7 @@ export default {
         Services,
         ServiceCover,
         SplitSection,
+        Paralax,
         Footer,
     },
 

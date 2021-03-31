@@ -68,6 +68,8 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <img src="../assets/triangle.png" class="img-fluid" id="arrow-img" />
+        <h1 id="arrow-text">Jsme nejlepší pičo</h1>
     </div>
 </template>
 
@@ -78,12 +80,31 @@ export default {
 </script>
 
 <style>
-/* .carousel-item {
-    width: 100%;
-    height: 100%;
-} */
+.section-carousel {
+    position: relative;
+}
 
 .carousel-item > img {
     max-height: 980px !important;
+}
+
+#arrow-img {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.image-text_box {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+#arrow-text {
+    position: absolute;
+    right: 7.8%;
+    bottom: 25%;
+    transform: rotate(-46.7deg);
+    color: white;
 }
 </style>

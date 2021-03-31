@@ -1,5 +1,5 @@
 <template>
-    <div class="footer pt-5">
+    <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 text-center">
@@ -28,5 +28,6 @@ export default {};
     height: 50vh;
     background-color: #2b77b5;
     color: white;
+    padding-top: 5px;
 }
 </style>

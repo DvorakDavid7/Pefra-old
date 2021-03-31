@@ -42,7 +42,12 @@ export default {};
 </script>
 
 <style>
+.split-section {
+    margin-bottom: 15px;
+}
+
 .about-us {
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
@@ -51,10 +56,13 @@ export default {};
 }
 
 #image-about {
+    margin-top: 40px;
     width: 100%;
+    border: 3px #2b77b5 solid;
 }
 
 .map-container {
+    border: 3px #2b77b5 solid;
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
